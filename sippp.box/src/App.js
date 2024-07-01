@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div id="sippp">
-      <div className="container">
+      <div className="container splash">
         <img src="https://www.sippp.box/sippp-logo-transparent.png" className="logo" alt="logo" />
         <h1>
           Sippp, or it didn't happen.
