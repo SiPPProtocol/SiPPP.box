@@ -1,5 +1,4 @@
 #sippp {
-  text-align: center;
   background-color: #CDABF8 !important;
 }
 
@@ -79,13 +78,14 @@
   left: 10px;
 }
 
-.about-container h1 {
+h1 {
   margin-top: 50px;
   font-size: 3em;
+  text-align: center;
 }
 
-.about-container p {
-  font-size: 1.2em;
+p {
+  font-size: .6em;
   color: #333;
 }
 

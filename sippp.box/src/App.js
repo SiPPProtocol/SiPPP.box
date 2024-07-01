@@ -13,9 +13,9 @@ function App() {
     <div id="sippp">
       <div className="container">
         <img src="https://www.sippp.box/sippp-logo-transparent.png" className="logo" alt="logo" />
-        <p>
+        <h1>
           Sippp, or it didn't happen.
-        </p>
+        </h1>
         <div className="button-container">
           <Link to="/about" className="button">
             Learn More
