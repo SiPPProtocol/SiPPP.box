@@ -1,8 +1,13 @@
+import React from 'react';
+import { Helmet } from 'react-helmet';
 import './App.css';
 
 function App() {
   return (
     <div id="sipp">
+      <Helmet>
+        <title>SiPPP: the Simple Photo Provenance Protocol</title>
+      </Helmet>
       <div className="container">
         <img src="https://www.sippp.box/sippp-logo-transparent.png" className="logo" alt="logo" />
         <p>
