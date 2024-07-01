@@ -26,8 +26,8 @@ function About() {
  
         <h2>Why</h2>
         <p>AI is dominating the headlines, it's hard to tell if photos are real, enhanced, 
-            misinformation, bullying, or just something we've never seen before, 
-            and many people are harmed as a result. As we scroll through 
+            misinformation, bullying, or just something we've never seen before. 
+            Many people are harmed as a result. As we scroll through 
             socials or watch the news, there's no simple, accessible way to verify 
             photo provenance, 
             which affects our confidence and our decision making. Impressionable minds 
@@ -40,7 +40,55 @@ function About() {
         </p>
 
         <h2>How</h2>
-        <p>tktktk</p>
+        <p>SiPPP, the Simple Photo Provenance Protocol, ensures the authenticity and
+            integrity of photos registered on the Base blockchain. Here's a
+            step-by-step explanation of how it works:
+        </p>
+        <h3>The Photo</h3>
+        <p>
+            To prove that a photo is genuine, unaltered, and original, the SiPPP 
+            app pins the photo, along with its detailed metadata, to IPFS (InterPlanetary 
+            File System). The unique IPFS hash generated from this process is then 
+            registered with the SiPPP smart contract, ensuring a permanent and tamper-proof 
+            record.
+        </p>
+
+        <h3>The User</h3>
+        <p>
+            Users authenticate through Privy, a secure identity provider. SiPPP creates a 
+            wallet on behalf of each authenticated user. This wallet is crucial for 
+            signing the transaction that registers the photo with the SiPPP smart contract 
+            and for paying the necessary gas fees. This process ensures that the photo is 
+            linked to a verified user, adding a layer of trust.
+        </p>
+
+        <h3>The App</h3>
+        <p>
+            To maintain the protocol’s integrity, the SiPPP app must remain unaltered. 
+            The app includes mechanisms to reject transactions that do not meet the 
+            required conditions. One approach involves an app wallet that signs the 
+            transactions, meaning the private key is embedded within the app. Alternatively, 
+            a signed JWT (JSON Web Token) could be used to interact with the smart contract, 
+            although this method may require additional security measures for key storage.
+        </p>
+
+        <h3>The Device</h3>
+        <p>
+            For further security, the SiPPP app performs several device integrity checks, 
+            such as verifying the absence of superuser binaries, root management apps, 
+            and abnormal file permissions. If a device fails these checks, the app will 
+            not proceed with the photo registration, ensuring that only photos taken on 
+            secure, unaltered devices are registered.
+        </p>
+
+        <h3>Verification</h3>
+        <p>
+            Any user can verify a registered photo by comparing the hash of the photo 
+            to the hash stored in the SiPPP smart contract. This straightforward 
+            verification process confirms that the photo is authentic and has not been 
+            tampered with since its registration.
+        </p>
+
         </div>
     </div>
   );
