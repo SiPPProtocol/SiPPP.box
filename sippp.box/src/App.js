@@ -16,14 +16,9 @@ function App() {
           Sippp, or it didn't happen.
         </p>
         <div className="button-container">
-          <a
-            className="button"
-            href="https://github.com/SiPPProtocol"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <Link to="/about" className="button">
             Learn More
-          </a>
+          </Link>
           <a
             className="button disabled"
             href=""
