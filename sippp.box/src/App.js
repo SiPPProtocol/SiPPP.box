@@ -8,14 +8,32 @@ function App() {
         <p>
           Sippp, or it didn't happen.
         </p>
-        <a
-          className="link"
-          href="https://github.com/SiPPProtocol"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Download
-        </a>
+        <div className="buttonContainer">
+          <a
+            className="button"
+            href="https://github.com/SiPPProtocol"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Learn More
+          </a>
+          <a
+            className="button"
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Download APK
+          </a>
+          <a
+            className="button"
+            href="https://example.com/install-farcaster-action"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Install Farcaster Action
+          </a>
+        </div>
       </div>
     </div>
   );
