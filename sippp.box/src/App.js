@@ -3,6 +3,9 @@ import { Helmet } from 'react-helmet';
 import './App.css';
 
 function App() {
+
+  const actionUrl = "https://warpcast.com/~/add-cast-action?actionType=post&name=Verify%20with%20SiPPP&icon=verified&postUrl=https%3A%2F%2Fsi-ppp-action.vercel.app%2Fapi%2Faction"
+
   return (
     <div id="sipp">
       <Helmet>
@@ -32,7 +35,7 @@ function App() {
           </a>
           <a
             className="button"
-            href="https://example.com/install-farcaster-action"
+            href={actionUrl}
             target="_blank"
             rel="noopener noreferrer"
           >
