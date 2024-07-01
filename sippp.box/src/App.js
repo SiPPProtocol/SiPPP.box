@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="container">
+      <div className="container">
         <img src="https://www.sippp.box/sippp-logo-transparent.png" className="logo" alt="logo" />
         <p>
           Sippp, or it didn't happen.
@@ -17,7 +17,7 @@ function App() {
         >
           Download
         </a>
-      </header>
+      </div>
     </div>
   );
 }
