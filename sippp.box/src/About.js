@@ -64,12 +64,12 @@ function About() {
 
         <h3>The App</h3>
         <p>
-            To maintain the protocol’s integrity, the SiPPP app must remain unaltered. 
-            The app includes mechanisms to reject transactions that do not meet the 
-            required conditions. One approach involves an app wallet that signs the 
-            transactions, meaning the private key is embedded within the app. Alternatively, 
-            a signed JWT (JSON Web Token) could be used to interact with the smart contract, 
-            although this method may require additional security measures for key storage.
+            Verifying the app is critical because we need to ensure that nobody can
+            submit altered photos to the smart contract. The smart contract needs to 
+            reject transactions that are not from the app. We achieve this by submitting
+            a signature generated from the IPFS hash and a private key. This signature
+            mechanism ensures that only photos registered through the official SiPPP
+            app are accepted, maintaining the integrity of the protocol.
         </p>
 
         <h3>The Device</h3>
