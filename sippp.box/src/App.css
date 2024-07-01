@@ -1,4 +1,4 @@
-.sipp {
+#sipp {
   text-align: center;
   background-color: #CDABF8 !important;
 }
@@ -14,7 +14,7 @@
   }
 }
 
-.sipp-container {
+#sipp > .container {
   min-height: 100vh;
   background-color: #CDABF8 !important;
   display: flex;
