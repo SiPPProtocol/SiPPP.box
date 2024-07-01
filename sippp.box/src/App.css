@@ -37,3 +37,26 @@
     transform: rotate(360deg);
   }
 }
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.button {
+  background-color: #450291;
+  padding: 15px 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 0 10px;
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.button:hover {
+  background-color: #5903b8;
+}

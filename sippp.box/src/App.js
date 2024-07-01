@@ -8,7 +8,7 @@ function App() {
         <p>
           Sippp, or it didn't happen.
         </p>
-        <div className="buttonContainer">
+        <div className="button-container">
           <a
             className="button"
             href="https://github.com/SiPPProtocol"
