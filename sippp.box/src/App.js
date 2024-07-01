@@ -1,9 +1,8 @@
-import logo from './sippp-logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="sipp">
       <div className="container">
         <img src="https://www.sippp.box/sippp-logo-transparent.png" className="logo" alt="logo" />
         <p>
