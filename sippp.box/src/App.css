@@ -122,3 +122,6 @@ li {
   color: #333;
 }
 
+img {
+  max-width: 768px;
+}
