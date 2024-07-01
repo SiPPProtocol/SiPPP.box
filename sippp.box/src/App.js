@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="container">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src="https://www.sippp.box/sippp-logo-transparent.png" className="App-logo" alt="logo" />
         <p>
           Sippp, or it didn't happen.
         </p>
