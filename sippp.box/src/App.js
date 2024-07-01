@@ -5,12 +5,12 @@ function App() {
   return (
     <div className="App">
       <header className="container">
-        <img src="https://www.sippp.box/sippp-logo-transparent.png" className="App-logo" alt="logo" />
+        <img src="https://www.sippp.box/sippp-logo-transparent.png" className="logo" alt="logo" />
         <p>
           Sippp, or it didn't happen.
         </p>
         <a
-          className="App-link"
+          className="link"
           href="https://github.com/SiPPProtocol"
           target="_blank"
           rel="noopener noreferrer"
