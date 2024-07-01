@@ -105,6 +105,12 @@ function About() {
             tampered with since its registration.
         </p>
 
+        <h2>Links</h2>
+        <ul>
+            <li><a href="https://warpcast.com/~/channel/sippp">Farcaster</a></li>
+            <li><a href="https://github.com/SiPPProtocol">GitHub</a></li>
+        </ul>
+
         </div>
     </div>
   );
