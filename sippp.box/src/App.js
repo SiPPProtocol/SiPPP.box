@@ -25,7 +25,7 @@ function App() {
             Learn More
           </a>
           <a
-            className="button"
+            className="button disabled"
             href=""
             target="_blank"
             rel="noopener noreferrer"
