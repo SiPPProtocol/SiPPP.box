@@ -10,7 +10,7 @@ function App() {
   const actionUrl = "https://warpcast.com/~/add-cast-action?actionType=post&name=Verify%20with%20SiPPP&icon=verified&postUrl=https%3A%2F%2Fsi-ppp-action.vercel.app%2Fapi%2Faction"
 
   return (
-    <div id="sipp">
+    <div id="sippp">
       <div className="container">
         <img src="https://www.sippp.box/sippp-logo-transparent.png" className="logo" alt="logo" />
         <p>
