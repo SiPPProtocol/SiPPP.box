@@ -22,7 +22,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #042431';
 }
 
 .link {
@@ -52,7 +52,8 @@
   text-align: center;
   margin: 0 10px;
   color: white;
-  font-size: 14px;
+  font-size: 18px;
+  font-weight: bold;
   text-decoration: none;
   display: inline-block;
 }
