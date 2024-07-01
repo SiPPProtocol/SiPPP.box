@@ -4,7 +4,7 @@ import './App.css';
 
 function About() {
   useEffect(() => {
-    document.title = 'About Us';
+    document.title = 'About SiPPP';
   }, []);
 
   return (
