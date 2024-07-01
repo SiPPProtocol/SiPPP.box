@@ -72,12 +72,6 @@
   background-color: gray;
 }
 
-/* TODO CLEANUP */
-.about-container {
-  text-align: center;
-  padding: 20px;
-}
-
 .about-logo {
   height: 10vmin;
   position: absolute;
@@ -87,7 +81,7 @@
 
 .about-container h1 {
   margin-top: 50px;
-  font-size: 2em;
+  font-size: 3em;
 }
 
 .about-container p {
