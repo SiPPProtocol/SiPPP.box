@@ -16,7 +16,7 @@
 
 .container {
   min-height: 100vh;
-  background-color: '#cdabf8';
+  background-color: #cdabf8;
   display: flex;
   flex-direction: column;
   align-items: center;
