@@ -14,18 +14,21 @@
 }
 
 #sippp > .container {
+  min-height: 100vh;
   background-color: #CDABF8 !important;
   display: flex;
   flex-direction: column;
   align-items: center;
   color: #042431;
-  padding: 100px 20px 40px 20px;
 }
 
 .splash {
-  min-height: 100vh;
   justify-content: center;
   padding: 0 20px 0 20px;
+}
+
+.content {
+  padding: 100px 20px 50px 20px;
 }
 
 .link {

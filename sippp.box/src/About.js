@@ -9,7 +9,7 @@ function About() {
 
   return (
     <div id="sippp">
-        <div className="container">
+        <div className="container content">
         <Link to="/">
             <img src="https://www.sippp.box/sippp-logo-transparent.png" className="about-logo" alt="logo" />
         </Link>
