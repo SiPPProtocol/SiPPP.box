@@ -41,9 +41,26 @@ function About() {
 
         <h2>How</h2>
         <p>SiPPP, the Simple Photo Provenance Protocol, ensures the authenticity and
-            integrity of photos registered on the Base blockchain. Here's a
-            step-by-step explanation of how it works:
+            integrity of photos registered on the Base blockchain. It consists of a
+            mobile app for taking and submitting photos, a smart contract that verifies
+            and registers photos, and a farcaster action for verification.
         </p>
+
+        <p>In order to prove that a photo is not altered or generated with AI, we must
+            prove that:
+        </p>
+        <ul>
+            <li>The image is a photograph taken with a camera.</li>
+            <li>The image has not been altered since it was taken.</li>
+        </ul>
+
+        <p>We achieve this by pinning the photo to IPFS and registering the hash to
+            Base immediately after the photo is taken. The mobile app submits
+            transaction data including the photo hash and a signature generated
+            from the photo hash and a private key. The smart contract rejects
+            signatures that it cannot verify with the corresponding public key.
+        </p>
+
         <h3>The Photo</h3>
         <p>
             To prove that a photo is genuine, unaltered, and original, the SiPPP 
