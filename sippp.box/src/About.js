@@ -23,6 +23,8 @@ function About() {
             Additionally, SiPPP verifies who took the photo and when it was taken.
         </p>
 
+        <img src="https://www.sippp.box/verified-message.png"/>
+
         <p>SiPPP, consists of a
             mobile app for taking and submitting photos, a smart contract that 
             registers photos to Base, and a farcaster action that allows anyone to verify
