@@ -1,4 +1,4 @@
-.App {
+.sipp {
   text-align: center;
 }
 
@@ -13,7 +13,7 @@
   }
 }
 
-.sipp > .container {
+.sipp-container {
   min-height: 100vh;
   background-color: #CDABF8;
   display: flex;

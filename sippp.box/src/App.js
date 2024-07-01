@@ -3,7 +3,7 @@ import './App.css';
 function App() {
   return (
     <div className="sipp">
-      <div className="container">
+      <div className="sipp-container">
         <img src="https://www.sippp.box/sippp-logo-transparent.png" className="logo" alt="logo" />
         <p>
           Sippp, or it didn't happen.
